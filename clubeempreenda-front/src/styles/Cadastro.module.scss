@@ -1,0 +1,45 @@
+.AppTitle {
+    font-size: xx-large;
+    margin: 0 50px;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.form {
+    max-width: 590px;
+    height: 590px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.form .formCustomButton {
+    margin-top: 50px;
+}
+  
+.textField {
+    margin: 20px 0;
+}
+
+.btnCadastrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
